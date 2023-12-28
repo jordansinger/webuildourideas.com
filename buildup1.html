@@ -7,24 +7,27 @@
       type="image/jpg"
       href="https://webuildourideas.com/favicon.jpg"
     />
+    <link href="https://kit.design/dist/main.0.0.1.css" rel="stylesheet" />
   </head>
-  <body>
-    <p>
-      <strong><a href="/">we build our ideas</a></strong>
-    </p>
-    <p><em>meet, chat, build, hack</em></p>
-    <p>
-      <a href="https://twitter.com/webuildourideas">@webuildourideas</a> from
-      <a href="https://twitter.com/jsngr">@jsngr</a>
-    </p>
-    <hr />
-    <p><strong>buildup #1</strong></p>
-    <ul>
-      <li>thu, dec. 14th, 2023</li>
-      <li>6pm - 8pm</li>
-      <li>SoMa, SF</li>
-      <li>space limited</li>
-      <li><a href="https://twitter.com/jsngr">dm @jsngr for address</a></li>
-    </ul>
+  <body padding=>
+    <vstack alignment="leading">
+      <a href="/" font="headline" foreground="black">we build our ideas</a>
+      <text font="subheadline" foreground="gray">meet, chat, build, hack</text>
+
+      <list padding="top">
+        <text font="headline">buildup #1</text>
+        <text>thu, dec. 14th, 2023</text>
+        <text>6pm - 8pm</text>
+        <text>SoMa, SF</text>
+        <text>space limited</text>
+        <text><a href="https://twitter.com/jsngr" foreground="blue">dm @jsngr for address</a></text>
+      </list>
+
+      <spacer></spacer>
+      <text font="caption" foreground="gray">
+        <a href="https://twitter.com/webuildourideas" foreground="blue">@webuildourideas</a> from
+        <a href="https://twitter.com/jsngr" foreground="blue">@jsngr</a>
+      </text>
+    </vstack>
   </body>
 </html>

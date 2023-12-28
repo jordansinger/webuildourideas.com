@@ -7,20 +7,23 @@
       type="image/jpg"
       href="https://webuildourideas.com/favicon.jpg"
     />
+    <link href="https://kit.design/dist/main.0.0.1.css" rel="stylesheet" />
   </head>
-  <body>
-    <p>
-      <strong><a href="/">we build our ideas</a></strong>
-    </p>
-    <p><em>meet, chat, build, hack</em></p>
-    <p>
-      <a href="https://twitter.com/webuildourideas">@webuildourideas</a> from
-      <a href="https://twitter.com/jsngr">@jsngr</a>
-    </p>
-    <hr />
-    <p><strong>buildups</strong></p>
-    <ul>
-      <li><a href="buildup1.html">buildup #1</a></li>
-    </ul>
+  <body padding=>
+    <vstack alignment="leading">
+      <a href="/" font="headline" foreground="black">we build our ideas</a>
+      <text font="subheadline" foreground="gray">meet, chat, build, hack</text>
+
+      <list padding="top">
+        <text font="headline">buildups</text>
+        <a href="buildup1.html" font="headline" foreground="blue">buildup #1</a>
+      </list>
+
+      <spacer></spacer>
+      <text font="caption" foreground="gray">
+        <a href="https://twitter.com/webuildourideas" foreground="blue">@webuildourideas</a> from
+        <a href="https://twitter.com/jsngr" foreground="blue">@jsngr</a>
+      </text>
+    </vstack>
   </body>
 </html>
